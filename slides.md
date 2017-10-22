@@ -6,18 +6,24 @@ October 25th, 2017
 
 ---
 
-## Motivation
+### Planet formation: early stage
 
----
+<img src="images/disk.jpg" width="50%" />
 
-### Early stages of planetary evolution
+Note:
 
 - Observations of circumstellar disks
 - Good understanding of physical processes
 
+What processes?
+
 ---
 
-### Late stages of planetary evolution
+### Planet formation: late stage
+
+<img src="images/exoplanet-populations.jpg" width="80%" />
+
+Note:
 
 - Mature planetary systems
 - Catalogue of detected extrasolar planets
@@ -25,14 +31,43 @@ October 25th, 2017
 
 ---
 
-### Phase in between?
+### What happens in between?
 
-- Planetary population synthesis
-- Study of embedded planets
+Note:
+
+Add transition diagram
 
 ---
 
-### Observing embedded planets with new generation
+### Study of embedded planets
+
+<img src="images/ruge-2014-disk-embedded-planet.png" width="40%" />
+
+Source: Ruge et al. (2014)
+
+Note:
+
+Should show features like
+
+- Ring structures
+- Spiral waves
+- Horseshoe orbits
+- Circumplanetary disk
+- Accretion onto the planet
+
+---
+
+### Observing embedded planets
+
+<img src="images/vlt.jpg" height="200" />
+<img src="images/eelt.jpg" height="200" />
+
+<img src="images/jwst.jpg" height="200" />
+<img src="images/alma.jpg" height="200" />
+
+Credit: ESO, NASA
+
+Note:
 
 - SPHERE/VLT
 - METIS/E-ELT
@@ -41,12 +76,12 @@ October 25th, 2017
 
 ---
 
-### Constrain physical properties of embedded planet
+### Derive physical properties
 
-- mass
-- effective temperature
-- luminosity
-- spectrum
+- Mass
+- Effective temperature
+- Luminosity
+- Spectrum
 
 ---
 
@@ -54,28 +89,39 @@ October 25th, 2017
 
 ---
 
-### Dynamical models of disk features caused by planets
+### Dynamical models of planet-disk interaction
 
-- Accretion onto the planet
-- Circumplanetary disk
-- Flow pattern
-
----
-
-### Radiation Hydrodynamics
-
-- Flux-limited diffusion (or M1?)
-- Frequency-dependent irradiation
-- Opacities
-- PLUTO for hydrodynamics
-- Implementations by Kuiper/Flock?
+- Radiation plays a role for hydrodynamical evolution
+- Thus, 3D radiation hydrodynamical numerical models
+- From this, create synthetic observations and compare to reality (partner project)
 
 ---
 
-### Adaptive mesh refinement
+### Hydrodynamics
+
+PLUTO for hydrodynamics (Mignone et al. 2007)
+
+---
+
+### Radiation treatment
+
+- Grey approximation for internal radiation
+- Flux-limited diffusion (extend to M1)
+- Frequency-dependent irradiation from stellar source
+
+Developed by Kuiper et al. (2010), Flock et al. (2013), Kolb et al. (2013)
+
+---
+
+### Further aspects
+
+- Dust opacities
+- Accretion shock at planet
+- Photoionization
+- Adaptive mesh refinement
 
 ---
 
 ## Conclusion
 
-Interesting observations to interpret anyone?
+Any interesting observations to model?
