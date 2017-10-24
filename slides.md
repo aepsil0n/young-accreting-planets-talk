@@ -136,7 +136,7 @@ fix at least dominant stellar irradiation using frequency-dependent ray-tracing
 ### Further aspects to study
 
 - Dust opacities (so far Ossenkopf & Henning, 1994)
-- Gas opacities (Malygin 2015/16)
+- Gas opacities (Malygin, Kuiper, Klahr, Dullemond, Henning; 2014)
 - Accretion shock at planet (Marleau, Klahr, Kuiper, Mordasini; 2017)
 - Adaptive mesh refinement
 - Ionization for hot regions
