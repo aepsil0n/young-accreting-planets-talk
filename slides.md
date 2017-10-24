@@ -159,7 +159,7 @@ Note:
 
 Theory needs to be guided by observations
 
-If you need dynamical models for
+Need dynamical models -> talk to me
 
 ---
 
