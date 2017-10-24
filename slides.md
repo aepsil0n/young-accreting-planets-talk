@@ -12,34 +12,19 @@ This is an outlook, I do not have any results
 
 ---
 
-### Planet formation
+### Observing embedded planets
 
-1. Gas and dust disk
-2. ???
-3. Planets!
+<img src="images/quanz-hd100546.png" height="250" />
+
+Candidate around HD100546
+
+Source: Quanz et al. (2013)
 
 Note:
 
-Early stage – circumstellar disk
-
-- Lots of observations
-- Understanding of physical processes connected
-  - Grain growth up to millimeter-sized particles
-
-Late stage – mature planetary systems
-
-- Possible structures
-- Statistics
-- Dynamical stability
-- Put solar system in context
-
-Specific aspect as mentioned in title:
-Young planets, embedded in disks are somewhere in between
-Still accreting material -> understand growth phase
+Intro: Quanz, LY Sco?
 
 ---
-
-### Observing embedded planets
 
 <img src="images/vlt.jpg" height="200" />
 <img src="images/eelt.jpg" height="200" />
@@ -64,11 +49,25 @@ Direct detection of accreting planets?
 
 ---
 
-### Study of embedded planets
+### Numerical models
+
+<img src="images/klahr-kley-midplane-temperature.png" height="350" />
+<img src="images/klahr-kley-vertical-cut.png" height="350" />
+
+Source: Klahr & Kley (2006)
+
+Note:
+
+disk thickens around planet, high pressure scale height
+donut-shaped structure
+
+---
+
+### Synthetic observations
 
 <img src="images/ruge-2014-disk-embedded-planet.png" width="400" />
 
-Source: Ruge et al. (2014)
+Source: Ruge, Wolf, Uribe, Klahr (2014)
 
 Note:
 
@@ -80,11 +79,7 @@ Should show features like
 - Circumplanetary disk
 - Accretion onto the planet
 
----
-
-<img src="images/alma-hltau.jpg" height="500" />
-
-Credit: ALMA (ESO/NAOJ/NRAO)
+Feasibility of detecting gaps (caused by planets) with ALMA
 
 ---
 
@@ -110,13 +105,21 @@ Treat radiation as accurately as possible in a dynamical setup
 
 PLUTO for hydrodynamics (Mignone et al. 2007)
 
+Note:
+
+experience in group
+availability of accurate radiation models
+
 ---
 
 ### Radiation treatment
 
 - Approximate radiation model used within fluid simulations
-- Flux-limited diffusion with frequency-dependent stellar irradiation
-- See Kuiper et al. (2010), Flock et al. (2013), Kolb et al. (2013)
+- Internal disk radiation: flux-limited diffusion
+- Stellar irradiation: frequency-dependent ray-tracing
+- Based on:
+  - *Kuiper, Klahr, Dullemond, Kley, Henning (2010)*
+  - Flock, Fromang, González, Commerçon (2013)
 
 Note:
 
@@ -133,9 +136,10 @@ fix at least dominant stellar irradiation using frequency-dependent ray-tracing
 ### Further aspects to study
 
 - Dust opacities (so far Ossenkopf & Henning, 1994)
-- Accretion shock at planet (e.g. Marleau et al., 2017)
+- Gas opacities (Malygin 2015/16)
+- Accretion shock at planet (Marleau, Klahr, Kuiper, Mordasini; 2017)
 - Adaptive mesh refinement
-- Photoionization for hot regions
+- Ionization for hot regions
 
 Note:
 
@@ -169,7 +173,7 @@ Contact: bopp@mpia.de
 
 For reference:
 
-- Klahr & Kley (2006)
-- Kley et al. (2009)
-- Kuiper et al. (2010)
-- Marleau et al. (2017)
+- Klahr & Kley (2006): *Initial radiation hydro model*
+- Kuiper, Klahr, Dullemond, Kley, Henning (2010): *Frequency-dependent irradiation*
+- Ruge, Wolf, Uribe, Klahr (2014): *Feasibility of detection with ALMA*
+- Marleau, Klahr, Kuiper, Mordasini (2017): *Planetary accretion shock*
