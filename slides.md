@@ -20,10 +20,6 @@ Candidate around HD100546
 
 Source: Quanz et al. (2013)
 
-Note:
-
-Intro: Quanz, LY Sco?
-
 ---
 
 <img src="images/vlt.jpg" height="200" />
