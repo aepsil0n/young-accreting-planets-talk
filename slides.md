@@ -45,6 +45,17 @@ Direct detection of accreting planets?
 
 ---
 
+### Schematic overview
+
+Note:
+
+- make a drawing here that shows the basic features
+- talk about individual features
+- make clear what the focus of this work is
+- use this as a guideline to come back to?
+
+---
+
 ### Numerical models
 
 <img src="images/klahr-kley-midplane-temperature.png" height="350" />
@@ -69,11 +80,11 @@ Note:
 
 Should show features like
 
+- Accretion onto the planet
+- Circumplanetary disk
+- Horseshoe orbits
 - Ring structures
 - Spiral waves
-- Horseshoe orbits
-- Circumplanetary disk
-- Accretion onto the planet
 
 Feasibility of detecting gaps (caused by planets) with ALMA
 
@@ -81,7 +92,7 @@ Feasibility of detecting gaps (caused by planets) with ALMA
 
 ### Interpreting observations
 
-- *Dynamical model of planet-disk system*
+- *Dynamical model of planet-disk system* (this is us)
 - Detailed model of observed radiation (S. Wolf, Uni Kiel)
 
 ---
@@ -129,6 +140,16 @@ fix at least dominant stellar irradiation using frequency-dependent ray-tracing
 
 ---
 
+### Current state
+
+Note:
+
+- 2D axis-symmetric model
+- show some plots perhaps?
+- collaboration with observers to model actual systems
+
+---
+
 ### Further aspects to study
 
 - Dust opacities (so far Ossenkopf & Henning, 1994)
@@ -150,16 +171,6 @@ Limited work in that direction by Szulágyi et al. (2017)
 - Dynamical models of planet-disk interaction
 - Aim: treat radiation as accurately as possible
 - Relevant to understand physical processes in circumplanetary disks
-
----
-
-## Any interesting observation to model?
-
-Note:
-
-Theory needs to be guided by observations
-
-Need dynamical models -> talk to me
 
 ---
 
