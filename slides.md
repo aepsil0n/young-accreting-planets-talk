@@ -8,7 +8,7 @@ October 25th, 2017
 
 Note:
 
-This is an outlook, I do not have any results
+This is an outlook, I do not have results just yet
 
 ---
 
@@ -138,6 +138,8 @@ parts of the disk
 
 fix at least dominant stellar irradiation using frequency-dependent ray-tracing
 
+(make a picture of this process!)
+
 ---
 
 ### Current state
@@ -169,6 +171,7 @@ Limited work in that direction by Szulágyi et al. (2017)
 ### Summary
 
 - Dynamical models of planet-disk interaction
+- Focus on small-scale structures
 - Aim: treat radiation as accurately as possible
 - Relevant to understand physical processes in circumplanetary disks
 
