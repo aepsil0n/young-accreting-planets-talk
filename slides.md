@@ -168,6 +168,16 @@ Limited work in that direction by Szulágyi et al. (2017)
 
 ---
 
+## Any interesting observation to model?
+
+Note:
+
+Theory needs to be guided by observations
+
+Need dynamical models -> talk to me
+
+---
+
 ### Summary
 
 - Dynamical models of planet-disk interaction
