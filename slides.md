@@ -121,23 +121,45 @@ availability of accurate radiation models
 
 ### Radiative transfer
 
-(schematic overview)
-
-- Approximate radiation model used within fluid simulations
-- Internal disk radiation: flux-limited diffusion (Kuiper et al., 2010)
-- Stellar irradiation: frequency-dependent ray-tracing (Kuiper et al., 2013)
+<img src="images/radtrans-schematic-plain.svg" width="600" />
 
 Note:
 
-FLD: strong simplification of radiative transfer
+Approximate radiation model used within fluid simulations
+
+---
+
+<img src="images/radtrans-schematic-diffusion.svg" width="600" />
+
+
+- Flux-limited diffusion (Kuiper et al., 2010)
+- Improve to M1 closure later
+
+Note:
+
+FLD is a strong simplification of radiative transfer
 
 fast, thus practical for dynamical simulations
 but leads to inaccuracies for transition from optically thin to optically thick
 parts of the disk
 
+gray approximation
+
+---
+
+<img src="images/radtrans-schematic-irradiation.svg" width="600" />
+
+Frequency-dependent ray-tracing (Kuiper et al., 2010 & 2013)
+
+Note:
+
 stellar irradiation using frequency-dependent ray-tracing
 
 refer to Flock et al. (2013) as alternative implementation
+
+---
+
+<img src="images/radtrans-schematic.svg" width="600" />
 
 ---
 
@@ -155,13 +177,13 @@ caveat not even this is accurate for intermediate optical depths around 10^3
 
 ### Current state
 
-- 2D axis-symmetric setup
+- 2D axis-symmetric radiation hydro setup
 - Next steps: move to 3D, introduce the planet
-- Collaboration with observers at MPIA on real systems
+- Collaboration on modelling real systems
 
 ---
 
-### Further aspects to study
+### Further aspects to take into account
 
 - Dust opacities
 - Gas opacities (Malygin, Kuiper, Klahr, Dullemond, Henning; 2014)
