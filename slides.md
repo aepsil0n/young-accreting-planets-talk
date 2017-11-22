@@ -208,7 +208,7 @@ Need dynamical models -> talk to me
 - Dynamical models of planet-disk interaction
 - Focus on small-scale structures
 - Aim: treat radiation as accurately as possible
-- Relevant to understand physical processes in circumplanetary disks
+- Relevant to interpret observations of circumplanetary disks
 
 ---
 
