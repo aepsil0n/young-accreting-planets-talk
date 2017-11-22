@@ -72,7 +72,8 @@ donut-shaped structure
 
 ### Synthetic observations
 
-<img src="images/ruge-2014-disk-embedded-planet.png" width="400" />
+<img src="images/ruge-2014-disk-embedded-planet.png" height="300" />
+<img src="images/ruge-2014-synthetic-alma-observation.png" height="300" />
 
 Source: Ruge, Wolf, Uribe, Klahr (2014)
 
