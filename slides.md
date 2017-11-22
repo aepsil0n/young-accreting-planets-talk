@@ -8,7 +8,11 @@ October 25th, 2017
 
 Note:
 
-This is an outlook, I do not have results just yet
+Happy to present my research
+
+More of an outlook, no results yet
+
+Open to suggestions by all the experts
 
 ---
 
@@ -20,7 +24,6 @@ Candidate around HD100546
 
 Source: Quanz et al. (2013)
 
----
 
 <img src="images/vlt.jpg" height="200" />
 <img src="images/eelt.jpg" height="200" />
@@ -54,7 +57,6 @@ Note:
 - make clear what the focus of this work is
 - use this as a guideline to come back to?
 
----
 
 ### Numerical models
 
@@ -68,7 +70,6 @@ Note:
 disk thickens around planet, high pressure scale height
 donut-shaped structure
 
----
 
 ### Synthetic observations
 
@@ -89,12 +90,13 @@ Should show features like
 
 Feasibility of detecting gaps (caused by planets) with ALMA
 
----
 
 ### Interpreting observations
 
-- *Dynamical model of planet-disk system* (this is us)
+- *Dynamical model of planet-disk system*
 - Detailed model of observed radiation (S. Wolf, Uni Kiel)
+  - Radiative transfer models
+  - Instrument effects
 
 ---
 
@@ -107,7 +109,6 @@ Note:
 
 Treat radiation as accurately as possible in a dynamical setup
 
----
 
 ### Hydrodynamics
 
@@ -118,7 +119,6 @@ Note:
 experience in group
 availability of accurate radiation models
 
----
 
 ### Radiative transfer
 
@@ -128,10 +128,8 @@ Note:
 
 Approximate radiation model used within fluid simulations
 
----
 
 <img src="images/radtrans-schematic-diffusion.svg" width="600" />
-
 
 - Flux-limited diffusion (Kuiper et al., 2010)
 - Improve to M1 closure later
@@ -146,7 +144,6 @@ parts of the disk
 
 gray approximation
 
----
 
 <img src="images/radtrans-schematic-irradiation.svg" width="600" />
 
@@ -158,11 +155,9 @@ stellar irradiation using frequency-dependent ray-tracing
 
 refer to Flock et al. (2013) as alternative implementation
 
----
 
 <img src="images/radtrans-schematic.svg" width="600" />
 
----
 
 <img src="images/kuiper-klessen-2013-radtrans-comparison.png" width="600" />
 
@@ -182,7 +177,6 @@ caveat not even this is accurate for intermediate optical depths around 10^3
 - Next steps: move to 3D, introduce the planet
 - Collaboration on modelling real systems
 
----
 
 ### Further aspects to take into account
 
@@ -198,7 +192,6 @@ AMR is very useful for this type of problem
 Radiation treatment not implemented yet for AMR
 Limited work in that direction by Szulágyi et al. (2017)
 
----
 
 ## Any interesting observation to model?
 
