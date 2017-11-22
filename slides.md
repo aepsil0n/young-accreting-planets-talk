@@ -119,14 +119,13 @@ availability of accurate radiation models
 
 ---
 
-### Radiation treatment
+### Radiative transfer
+
+(schematic overview)
 
 - Approximate radiation model used within fluid simulations
-- Internal disk radiation: flux-limited diffusion
-- Stellar irradiation: frequency-dependent ray-tracing
-- Based on:
-  - *Kuiper, Klahr, Dullemond, Kley, Henning (2010)*
-  - Flock, Fromang, González, Commerçon (2013)
+- Internal disk radiation: flux-limited diffusion (Kuiper et al., 2010)
+- Stellar irradiation: frequency-dependent ray-tracing (Kuiper et al., 2013)
 
 Note:
 
@@ -136,25 +135,35 @@ fast, thus practical for dynamical simulations
 but leads to inaccuracies for transition from optically thin to optically thick
 parts of the disk
 
-fix at least dominant stellar irradiation using frequency-dependent ray-tracing
+stellar irradiation using frequency-dependent ray-tracing
 
-(make a picture of this process!)
+refer to Flock et al. (2013) as alternative implementation
+
+---
+
+<img src="images/kuiper-klessen-2013-radtrans-comparison.png" width="600" />
+
+Kuiper & Klessen (2013)
+
+Note:
+
+Flux-limited diffusion not sufficient on its own
+
+caveat not even this is accurate for intermediate optical depths around 10^3
 
 ---
 
 ### Current state
 
-Note:
-
-- 2D axis-symmetric model
-- show some plots perhaps?
-- collaboration with observers to model actual systems
+- 2D axis-symmetric setup
+- Next steps: move to 3D, introduce the planet
+- Collaboration with observers at MPIA on real systems
 
 ---
 
 ### Further aspects to study
 
-- Dust opacities (so far Ossenkopf & Henning, 1994)
+- Dust opacities
 - Gas opacities (Malygin, Kuiper, Klahr, Dullemond, Henning; 2014)
 - Accretion shock at planet (Marleau, Klahr, Kuiper, Mordasini; 2017)
 - Adaptive mesh refinement
