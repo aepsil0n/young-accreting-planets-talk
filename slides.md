@@ -4,7 +4,7 @@ Eduard Bopp, Hubert Klahr (MPIA) & Sebastian Wolf (Uni Kiel)
 
 Supported by DFG Priority Programme 1992
 
-October 25th, 2017
+NumPDI, Cuernavaca, November 24th, 2017
 
 Note:
 
