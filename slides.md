@@ -22,7 +22,18 @@ Open to suggestions by all the experts
 
 Candidate around HD100546
 
+<math>
+  T = <msubsup> <mo>932</mo> <mn>+193</mn> <mn>-202</mn> </msubsup> K,
+  R =
+    <msubsup> <mo>6.9</mo> <mn>+2.7</mn> <mn>-2.9</mn> </msubsup>
+    <msub> <mo>R</mo> <mn>Jup</mn> </msub>
+</math>
+
 Source: Quanz et al. (2015)
+
+Note:
+
+if real => object we are interested in
 
 
 <img src="images/vlt.jpg" height="200" />
@@ -48,14 +59,12 @@ Direct detection of accreting planets?
 
 ---
 
-### Schematic overview
+## Interpreting observations
 
-Note:
-
-- make a drawing here that shows the basic features
-- talk about individual features
-- make clear what the focus of this work is
-- use this as a guideline to come back to?
+- *Dynamical model of planet-disk system*
+- Detailed model of observed radiation (S. Wolf, Uni Kiel)
+  - Radiative transfer models
+  - Instrument effects
 
 
 ### Numerical models
@@ -90,17 +99,9 @@ Should show features like
 
 Feasibility of detecting gaps (caused by planets) with ALMA
 
-
-### Interpreting observations
-
-- *Dynamical model of planet-disk system*
-- Detailed model of observed radiation (S. Wolf, Uni Kiel)
-  - Radiative transfer models
-  - Instrument effects
-
 ---
 
-### Dynamical models of planet-disk system
+## Dynamical models
 
 - Internal energy of disk is dominated by radiation
 - 3D radiation hydrodynamical numerical models
@@ -112,7 +113,11 @@ Treat radiation as accurately as possible in a dynamical setup
 
 ### Hydrodynamics
 
-PLUTO for hydrodynamics (Mignone et al. 2007)
+PLUTO (Mignone et al. 2007)
+
+- Godunov-type grid code
+- Adaptive mesh refinement
+- Many different physics modules
 
 Note:
 
@@ -136,13 +141,13 @@ Approximate radiation model used within fluid simulations
 
 Note:
 
-FLD is a strong simplification of radiative transfer
+gray approximation
 
 fast, thus practical for dynamical simulations
-but leads to inaccuracies for transition from optically thin to optically thick
-parts of the disk
 
-gray approximation
+FLD is a strong simplification of radiative transfer
+
+leads to inaccuracies in atmosphere: opt. thin -> opt. thick
 
 
 <img src="images/radtrans-schematic-irradiation.svg" width="600" />
@@ -156,18 +161,27 @@ stellar irradiation using frequency-dependent ray-tracing
 refer to Flock et al. (2013) as alternative implementation
 
 
-<img src="images/radtrans-schematic.svg" width="600" />
-
-
 <img src="images/kuiper-klessen-2013-radtrans-comparison.png" width="600" />
 
 Kuiper & Klessen (2013)
 
 Note:
 
+midplane T profile compared between
+
+- Monte Carlo (RADMC3D)
+- dashed: gray FLD
+- dotted: gray FLD + gray ray-tracing
+- solid:  gray FLD + frequency-dependent ray-tracing
+
 Flux-limited diffusion not sufficient on its own
 
 caveat not even this is accurate for intermediate optical depths around 10^3
+
+
+### Full picture
+
+<img src="images/radtrans-schematic.svg" width="600" />
 
 ---
 
@@ -177,29 +191,26 @@ caveat not even this is accurate for intermediate optical depths around 10^3
 - Next steps: move to 3D, introduce the planet
 - Collaboration on modelling real systems
 
+Note:
 
-### Further aspects to take into account
+ppl working on simulations
+
+
+### Further aspects to study
 
 - Dust opacities
-- Gas opacities (Malygin, Kuiper, Klahr, Dullemond, Henning; 2014)
-- Accretion shock at planet (Marleau, Klahr, Kuiper, Mordasini; 2017)
-- Adaptive mesh refinement
+- Gas opacities (Malygin et al., 2014)
+- Accretion shock at planet (Marleau et al., 2017)
+- Refinement of the region around the planet
 - Ionization for hot regions
 
 Note:
 
 AMR is very useful for this type of problem
+
 Radiation treatment not implemented yet for AMR
-Limited work in that direction by Szulágyi et al. (2017)
 
-
-## Any interesting observation to model?
-
-Note:
-
-Theory needs to be guided by observations
-
-Need dynamical models -> talk to me
+Some work in that direction by Szulágyi et al. (2017)
 
 ---
 
