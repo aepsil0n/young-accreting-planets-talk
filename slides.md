@@ -18,11 +18,11 @@ Open to suggestions by all the experts
 
 ### Observing embedded planets
 
-<img src="images/quanz-hd100546.png" height="250" />
+<img src="images/quanz-hd100546.png" width="600" />
 
 Candidate around HD100546
 
-Source: Quanz et al. (2013)
+Source: Quanz et al. (2015)
 
 
 <img src="images/vlt.jpg" height="200" />
