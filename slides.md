@@ -192,15 +192,31 @@ caveat not even this is accurate for intermediate optical depths around 10^3
 
 ---
 
-### Current state
+### 2D axis-symmetric setup
 
-- 2D axis-symmetric radiation hydro setup
-- Next steps: move to 3D, introduce the planet
-- Collaboration on modelling real systems
+- Start with disk in (approximate) hydrostatic equilibrium
+- Calculate radiative equilibrium
+- Run radiation-hydro simulation
 
-Note:
 
-ppl working on simulations
+<img src="images/density-initial.png" width="600" />
+
+
+<img src="images/pre-radiation-temperature.gif" width="600" />
+
+
+<img src="images/irradiation-initial.png" width="600" />
+
+
+<img src="images/azimuthal-velocity-initial.png" width="600" />
+
+
+### Next steps
+
+- Stabilize it
+- Move to 3D
+- Add the planet
+- Apply to real systems
 
 
 ### Further aspects to study
