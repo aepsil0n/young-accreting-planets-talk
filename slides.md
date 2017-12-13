@@ -6,14 +6,6 @@ Supported by DFG Priority Programme 1992
 
 PSF Theory Group Meeting – Dec 14 2017
 
-Note:
-
-Happy to present my research
-
-More of an outlook, no results yet
-
-Open to suggestions by all the experts
-
 ---
 
 ### Observing embedded planets
