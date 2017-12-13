@@ -124,10 +124,25 @@ Note:
 Approximate radiation model used within fluid simulations
 
 
+Equations for radiative transfer:
+
+$ ∂\_t E\_\mathrm{int} + ∇ \cdot (E\_\mathrm{int} \mathbf{u}) =
+\- \mathrm{P} ∇ \cdot \mathbf{u} - Λ $
+<!-- .element: class="fragment" -->
+
+$ ∂\_t E\_\mathrm{rad} + ∇ \cdot (E\_\mathrm{rad} \mathbf{u}) =
+\- ∇ \cdot \mathbf{F}\_\mathrm{rad} + Λ $
+<!-- .element: class="fragment" -->
+
+with $ Λ = ρ c κ\_R (a T^4 - E\_\mathrm{rad}) $
+<!-- .element: class="fragment" -->
+
+
 <img src="images/radtrans-schematic-diffusion.svg" width="600" />
 
-- Flux-limited diffusion (Kuiper et al., 2010)
-- Improve to M1 closure later
+- Flux-limited diffusion: $ \mathbf{F} = - D ∇ E\_\mathrm{rad} $
+- Levermore & Pomeraning (1981)
+- Implementation in PLUTO: Kuiper et al. (2010)
 
 Note:
 
@@ -138,6 +153,8 @@ fast, thus practical for dynamical simulations
 FLD is a strong simplification of radiative transfer
 
 leads to inaccuracies in atmosphere: opt. thin -> opt. thick
+
+maybe M1 closure later?
 
 
 <img src="images/radtrans-schematic-irradiation.svg" width="600" />
