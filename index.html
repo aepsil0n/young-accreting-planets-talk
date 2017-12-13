@@ -4,13 +4,20 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+		<title>Radiation hydrodynamics of young accreting planets</title>
 
 		<link rel="stylesheet" href="css/reveal.css">
 		<link rel="stylesheet" href="css/theme/black.css">
 
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- MathJax -->
+		<script type="text/x-mathjax-config">
+		  MathJax.Hub.Config({
+		  	tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+		  });
+		</script>
 
 		<!-- Printing and PDF exports -->
 		<script>
@@ -41,11 +48,18 @@
 			// - https://github.com/hakimel/reveal.js#configuration
 			// - https://github.com/hakimel/reveal.js#dependencies
 			Reveal.initialize({
+				math: {
+					mathjax: 'lib/js/MathJax/MathJax.js',
+					config: 'TeX-AMS_HTML-full'
+				},
 				dependencies: [
 					{ src: 'plugin/markdown/marked.js' },
 					{ src: 'plugin/markdown/markdown.js' },
 					{ src: 'plugin/notes/notes.js', async: true },
-					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+					{ src: 'plugin/highlight/highlight.js', async: true,
+						callback: function() { hljs.initHighlightingOnLoad(); }
+					},
+					{ src: 'plugin/math/math.js', async: true }
 				]
 			});
 		</script>
