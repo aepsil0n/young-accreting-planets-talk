@@ -14,12 +14,10 @@ PSF Theory Group Meeting – Dec 14 2017
 
 Candidate around HD100546
 
-<math>
-  T = <msubsup> <mo>932</mo> <mn>+193</mn> <mn>-202</mn> </msubsup> K,
-  R =
-    <msubsup> <mo>6.9</mo> <mn>+2.7</mn> <mn>-2.9</mn> </msubsup>
-    <msub> <mo>R</mo> <mn>Jup</mn> </msub>
-</math>
+$$
+\mathrm{T} = 932^{+193}\_{-202} \mathrm{K}, \quad
+\mathrm{R} = 6.9^{+2.7}\_{-2.9} \mathrm{R}\_\mathrm{Jup}
+$$
 
 Source: Quanz et al. (2015)
 
