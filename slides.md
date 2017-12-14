@@ -211,6 +211,11 @@ caveat not even this is accurate for intermediate optical depths around 10^3
 <img src="images/azimuthal-velocity-initial.png" width="600" />
 
 
+<video controls height="600">
+  <source src="images/density-evolution.ogg" type="video/ogg">
+</video>
+
+
 ### Next steps
 
 - Stabilize it
@@ -221,8 +226,7 @@ caveat not even this is accurate for intermediate optical depths around 10^3
 
 ### Further aspects to study
 
-- Dust opacities
-- Gas opacities (Malygin et al., 2014)
+- Dust & gas opacities
 - Accretion shock at planet (Marleau et al., 2017)
 - Refinement of the region around the planet
 - Ionization for hot regions
