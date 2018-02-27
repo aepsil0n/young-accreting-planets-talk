@@ -1,6 +1,7 @@
 ## Characterization of Young Accreting Planets
 
-Eduard Bopp, Hubert Klahr (MPIA) & Sebastian Wolf (Uni Kiel)
+Eduard Bopp, Hubert Klahr (MPIA), Anton Krieger, Sebastian Wolf (Uni Kiel), Rolf
+Kuiper (Uni Tübingen)
 
 Supported by DFG Priority Programme 1992
 
@@ -124,23 +125,9 @@ Note:
 Approximate radiation model used within fluid simulations
 
 
-Equations for radiative transfer:
-
-$ ∂\_t E\_\mathrm{int} + ∇ \cdot (E\_\mathrm{int} \mathbf{u}) =
-\- \mathrm{P} ∇ \cdot \mathbf{u} - Λ $
-<!-- .element: class="fragment" -->
-
-$ ∂\_t E\_\mathrm{rad} + ∇ \cdot (E\_\mathrm{rad} \mathbf{u}) =
-\- ∇ \cdot \mathbf{F}\_\mathrm{rad} + Λ $
-<!-- .element: class="fragment" -->
-
-with $ Λ = ρ c κ\_R (a T^4 - E\_\mathrm{rad}) $
-<!-- .element: class="fragment" -->
-
-
 <img src="images/radtrans-schematic-diffusion.svg" width="600" />
 
-- Flux-limited diffusion: $ \mathbf{F} = - D ∇ E\_\mathrm{rad} $
+- Flux-limited diffusion
 - Levermore & Pomeraning (1981)
 - Implementation in PLUTO: Kuiper et al. (2010)
 
@@ -157,38 +144,13 @@ leads to inaccuracies in atmosphere: opt. thin -> opt. thick
 maybe M1 closure later?
 
 
-<img src="images/radtrans-schematic-irradiation.svg" width="600" />
+<img src="images/radtrans-schematic.svg" width="600" />
 
 Frequency-dependent ray-tracing (Kuiper et al., 2010 & 2013)
 
 Note:
 
-stellar irradiation using frequency-dependent ray-tracing
-
-refer to Flock et al. (2013) as alternative implementation
-
-
-<img src="images/kuiper-klessen-2013-radtrans-comparison.png" width="600" />
-
-Kuiper & Klessen (2013)
-
-Note:
-
-midplane T profile compared between
-
-- Monte Carlo (RADMC3D)
-- dashed: gray FLD
-- dotted: gray FLD + gray ray-tracing
-- solid:  gray FLD + frequency-dependent ray-tracing
-
-Flux-limited diffusion not sufficient on its own
-
-caveat not even this is accurate for intermediate optical depths around 10^3
-
-
-### Full picture
-
-<img src="images/radtrans-schematic.svg" width="600" />
+compare with Kiel group RadTrans to test accuracy
 
 ---
 
@@ -218,7 +180,7 @@ caveat not even this is accurate for intermediate optical depths around 10^3
 - Stabilize it (initial conditions too far from equilibrium)
 - Move to 3D
 - Add the planet
-- Apply to real systems
+- Apply to real systems (in collab. with Kiel)
 
 
 ### Further aspects to study
