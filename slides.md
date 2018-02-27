@@ -208,9 +208,6 @@ caveat not even this is accurate for intermediate optical depths around 10^3
 <img src="images/irradiation-initial.png" width="600" />
 
 
-<img src="images/azimuthal-velocity-initial.png" width="600" />
-
-
 <video controls height="600">
   <source src="images/density-evolution.ogg" type="video/ogg">
 </video>
@@ -218,7 +215,7 @@ caveat not even this is accurate for intermediate optical depths around 10^3
 
 ### Next steps
 
-- Stabilize it
+- Stabilize it (initial conditions too far from equilibrium)
 - Move to 3D
 - Add the planet
 - Apply to real systems
