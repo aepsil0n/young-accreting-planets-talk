@@ -93,7 +93,7 @@ Feasibility of detecting gaps (caused by planets) with ALMA
 
 ## Dynamical models
 
-- Internal energy of disk is dominated by radiation
+- Disk temperature is influenced by radiation
 - 3D radiation hydrodynamical numerical models
 
 Note:
