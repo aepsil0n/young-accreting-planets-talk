@@ -1,10 +1,10 @@
 ## Characterization of Young Accreting Planets
 
-Eduard Bopp, Hubert Klahr (MPIA) & Sebastian Wolf (Uni Kiel)
+Eduard Bopp, Hubert Klahr (MPIA), Anton Krieger, Sebastian Wolf (Uni Kiel) & Rolf Kuiper (Uni Tübingen)
 
 Supported by DFG Priority Programme 1992
 
-PSF Theory Group Meeting – Dec 14 2017
+MPIA/ITA Joint Retreat – March 7, 2018
 
 ---
 
