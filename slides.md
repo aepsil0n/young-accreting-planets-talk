@@ -4,7 +4,7 @@ Eduard Bopp, Hubert Klahr (MPIA), Anton Krieger, Sebastian Wolf (Uni Kiel) & Rol
 
 Supported by DFG Priority Programme 1992
 
-MPIA/ITA Joint Retreat – March 7, 2018
+MPIA/ITA Joint Retreat – March 8, 2018
 
 ---
 
