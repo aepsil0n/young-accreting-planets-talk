@@ -113,7 +113,6 @@ PLUTO (Mignone et al. 2007)
 
 Note:
 
-experience in group
 availability of accurate radiation models
 
 
@@ -128,7 +127,7 @@ Approximate radiation model used within fluid simulations
 
 <img src="images/radtrans-schematic-diffusion.svg" width="600" />
 
-- Flux-limited diffusion: $ \mathbf{F} = - D ∇ E\_\mathrm{rad} $
+- Flux-limited diffusion
 - Levermore & Pomeraning (1981)
 - Implementation in PLUTO: Kuiper et al. (2010)
 
@@ -157,35 +156,6 @@ refer to Flock et al. (2013) as alternative implementation
 
 ---
 
-### 2D axis-symmetric setup
-
-- Start with disk in (approximate) hydrostatic equilibrium
-- Calculate radiative equilibrium
-- Run radiation-hydro simulation
-
-
-<img src="images/density-initial.png" width="600" />
-
-
-<img src="images/irradiation-initial.png" width="600" />
-
-
-<img src="images/pre-radiation-temperature.gif" width="600" />
-
-
-<video controls height="600">
-  <source src="images/density-evolution.ogg" type="video/ogg">
-</video>
-
-
-### Next steps
-
-- Stabilize it (initial conditions too far from equilibrium)
-- Move to 3D
-- Add the planet
-- Apply to real systems
-
-
 ### Further aspects to study
 
 - Dust & gas opacities
@@ -201,7 +171,6 @@ Radiation treatment not implemented yet for AMR
 
 Some work in that direction by Szulágyi et al. (2017)
 
----
 
 ### Summary
 
@@ -209,7 +178,6 @@ Some work in that direction by Szulágyi et al. (2017)
 - Aim: treat radiation as accurately as possible
 - Relevant to interpret observations of circumplanetary disks
 
----
 
 ### Thank you for your attention
 
