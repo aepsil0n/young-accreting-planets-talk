@@ -167,10 +167,10 @@ refer to Flock et al. (2013) as alternative implementation
 <img src="images/density-initial.png" width="600" />
 
 
-<img src="images/pre-radiation-temperature.gif" width="600" />
-
-
 <img src="images/irradiation-initial.png" width="600" />
+
+
+<img src="images/pre-radiation-temperature.gif" width="600" />
 
 
 <video controls height="600">
