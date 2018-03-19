@@ -6,7 +6,7 @@ Eduard Bopp, Hubert Klahr (MPIA), Anton Krieger, Sebastian Wolf (Uni Kiel) & Rol
 
 Supported by DFG Priority Programme 1992
 
-MPIA/ITA Joint Retreat – March 8, 2018
+Circumplanetary Disks and Satellite Formation, Nagoya – March 30, 2018
 
 ---
 
