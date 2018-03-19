@@ -1,5 +1,7 @@
 ## Characterization of Young Accreting Planets
 
+<img src="images/spp-1992-logo.png" width="200" align="left" />
+
 Eduard Bopp, Hubert Klahr (MPIA), Anton Krieger, Sebastian Wolf (Uni Kiel) & Rolf Kuiper (Uni Tübingen)
 
 Supported by DFG Priority Programme 1992
