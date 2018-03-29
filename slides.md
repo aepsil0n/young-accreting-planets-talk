@@ -1,44 +1,42 @@
 ## Characterization of Young Accreting Planets
 
+Circumplanetary Disks and Satellite Formation, Nagoya – March 30, 2018
+
 <img src="images/spp-1992-logo.png" width="200" align="left" />
 
-Eduard Bopp, Hubert Klahr (MPIA), Anton Krieger, Sebastian Wolf (Uni Kiel) & Rolf Kuiper (Uni Tübingen)
-
-Supported by DFG Priority Programme 1992
-
-Circumplanetary Disks and Satellite Formation, Nagoya – March 30, 2018
+**Eduard Bopp**, Hubert Klahr (MPIA), Anton Krieger, Sebastian Wolf (Uni Kiel) & Rolf Kuiper (Uni Tübingen)
 
 ---
 
-### Observing embedded planets
+## Observing embedded planets
+
+
+**HD 100546**
 
 <img src="images/quanz-hd100546.png" width="600" />
 
-Candidate around HD100546
+Quanz et al. (2015)
 
-$$
-\mathrm{T} = 932^{+193}\_{-202} \mathrm{K}, \quad
-\mathrm{R} = 6.9^{+2.7}\_{-2.9} \mathrm{R}\_\mathrm{Jup}
-$$
 
-Source: Quanz et al. (2015)
+**LkCa 15**
+
+<img src="images/sallum-15-lkca-15.png" width="600" />
+
+Sallum et al. (2015)
+
+
+### More to come…
+
+<img src="images/vlt.jpg" height="150" />
+<img src="images/eelt.jpg" height="150" />
+<img src="images/jwst.jpg" height="150" />
+<img src="images/alma.jpg" height="150" />
+
+*Credit: ESO, NASA*
+
+also see talks by Andrea Isella, Alice Zurlo & Sebastian Perez
 
 Note:
-
-if real => object we are interested in
-
-
-<img src="images/vlt.jpg" height="200" />
-<img src="images/eelt.jpg" height="200" />
-
-<img src="images/jwst.jpg" height="200" />
-<img src="images/alma.jpg" height="200" />
-
-Credit: ESO, NASA
-
-Note:
-
-Current and next-gen observatories will give us more data
 
 - SPHERE/VLT
 - METIS/E-ELT
@@ -51,25 +49,10 @@ Direct detection of accreting planets?
 
 ---
 
-## Interpreting observations
+### Interpreting observations with models
 
-- *Dynamical model of planet-disk system*
-- Detailed model of observed radiation (Uni Kiel)
-  - Radiative transfer models
-  - Instrument effects
-
-
-### Numerical models
-
-<img src="images/klahr-kley-midplane-temperature.png" height="350" />
-<img src="images/klahr-kley-vertical-cut.png" height="350" />
-
-Source: Klahr & Kley (2006)
-
-Note:
-
-disk thickens around planet, high pressure scale height
-donut-shaped structure
+- **Dynamics of planet-disk system** (MPIA)
+- Observable radiation (Uni Kiel)
 
 
 ### Synthetic observations
@@ -77,7 +60,7 @@ donut-shaped structure
 <img src="images/ruge-2014-disk-embedded-planet.png" height="300" />
 <img src="images/ruge-2014-synthetic-alma-observation.png" height="300" />
 
-Source: Ruge, Wolf, Uribe, Klahr (2014)
+Source: Ruge, Wolf, Uribe & Klahr (2014)
 
 Note:
 
@@ -93,27 +76,12 @@ Feasibility of detecting gaps (caused by planets) with ALMA
 
 ---
 
-## Dynamical models
+### Dynamical models
 
 - Disk temperature is influenced by radiation
-- 3D radiation hydrodynamical numerical models
-
-Note:
-
-Treat radiation as accurately as possible in a dynamical setup
-
-
-### Hydrodynamics
-
-PLUTO (Mignone et al. 2007)
-
-- Godunov-type grid code
-- Adaptive mesh refinement
-- Many different physics modules
-
-Note:
-
-availability of accurate radiation models
+- For an accurate treatment, we need to handle radiation
+  - talks by Hubert Klahr, Judit Szulagyi
+- 3D radiation hydrodynamical numerical models using PLUTO
 
 
 ### Radiative transfer
@@ -141,8 +109,6 @@ FLD is a strong simplification of radiative transfer
 
 leads to inaccuracies in atmosphere: opt. thin -> opt. thick
 
-maybe M1 closure later?
-
 
 <img src="images/radtrans-schematic.svg" width="600" />
 
@@ -154,23 +120,17 @@ stellar irradiation using frequency-dependent ray-tracing
 
 refer to Flock et al. (2013) as alternative implementation
 
----
 
-### Further aspects to study
+### Future developments
 
+- FLD does not capture shadows inside the disk
+  - M1 closure (Voelkel et al., in prep.)
+- Mesh refinement to improve resolution around planet
 - Dust & gas opacities
 - Accretion shock at planet (Marleau et al., 2017)
-- Refinement of the region around the planet
 - Ionization for hot regions
 
-Note:
-
-AMR is very useful for this type of problem
-
-Radiation treatment not implemented yet for AMR
-
-Some work in that direction by Szulágyi et al. (2017)
-
+---
 
 ### Summary
 
@@ -182,10 +142,3 @@ Some work in that direction by Szulágyi et al. (2017)
 ### Thank you for your attention
 
 Contact: bopp@mpia.de
-
-For reference:
-
-- Klahr & Kley (2006): *Initial radiation hydro model*
-- Kuiper, Klahr, Dullemond, Kley, Henning (2010): *Frequency-dependent irradiation*
-- Ruge, Wolf, Uribe, Klahr (2014): *Feasibility of detection with ALMA*
-- Marleau, Klahr, Kuiper, Mordasini (2017): *Planetary accretion shock*
