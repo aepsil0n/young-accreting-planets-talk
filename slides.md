@@ -1,6 +1,6 @@
 ## Characterization of Young Accreting Planets
 
-Circumplanetary Disks and Satellite Formation, Nagoya – March 30, 2018
+Circumplanetary Disks and Satellite Formation, Nagoya – March&nbsp;30,&nbsp;2018
 
 <img src="images/spp-1992-logo.png" width="200" align="left" />
 
