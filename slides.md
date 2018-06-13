@@ -1,6 +1,6 @@
 ## Characterization of Young Accreting Planets
 
-Circumplanetary Disks and Satellite Formation, Nagoya – March&nbsp;30,&nbsp;2018
+Tübingen Group Meeting – June 13, 2018
 
 <img src="images/spp-1992-logo.png" width="200" align="left" />
 
@@ -11,18 +11,18 @@ Circumplanetary Disks and Satellite Formation, Nagoya – March&nbsp;30,&nbsp;20
 ## Observing embedded planets
 
 
-**HD 100546**
-
-<img src="images/quanz-hd100546.png" width="600" />
-
-Quanz et al. (2015)
-
-
 **LkCa 15**
 
 <img src="images/sallum-15-lkca-15.png" width="600" />
 
 Sallum et al. (2015)
+
+
+**HD 100546**
+
+<img src="images/quanz-hd100546.png" width="600" />
+
+Quanz et al. (2015)
 
 
 ### More to come…
@@ -33,8 +33,6 @@ Sallum et al. (2015)
 <img src="images/alma.jpg" height="150" />
 
 *Credit: ESO, NASA*
-
-also see talks by Andrea Isella, Alice Zurlo & Sebastian Perez
 
 Note:
 
@@ -53,6 +51,15 @@ Direct detection of accreting planets?
 
 - **Dynamics of planet-disk system** (MPIA)
 - Observable radiation (Uni Kiel)
+
+
+### Dynamical simulations
+
+<img src="images/klahr-kley-vertical-cut.png" height="450" />
+
+color: density, contours: temperature, arrows: velocity
+
+from Klahr & Kley (2006)
 
 
 ### Synthetic observations
@@ -80,7 +87,6 @@ Feasibility of detecting gaps (caused by planets) with ALMA
 
 - Disk temperature is influenced by radiation
 - For an accurate treatment, we need to handle radiation
-  - talks by Hubert Klahr, Judit Szulagyi
 - 3D radiation hydrodynamical numerical models using PLUTO
 
 
@@ -120,13 +126,54 @@ stellar irradiation using frequency-dependent ray-tracing
 
 refer to Flock et al. (2013) as alternative implementation
 
+---
+
+## Simulations
+
+
+### Current setup
+
+- Start with isothermal profile
+- Run axissymmetric 2D simulation
+- Run 3D simulation
+- Optionally add a planet's gravitational potential
+
+
+<img src="images/simulation/slice-rho.png" width="100%" />
+
+
+<img src="images/simulation/slice-irad.png" width="100%" />
+
+
+<img src="images/simulation/slice-Tgas.png" width="100%" />
+
+
+<img src="images/simulation/no-planet-rho.png" width="100%" />
+
+
+<img src="images/simulation/spiral-wave-rho.png" width="100%" />
+
+
+<img src="images/simulation/spiral-wave-drho.png" width="100%" />
+
+
+<img src="images/simulation/spiral-wave-drho-zoom.png" width="100%" />
+
+
+### Next steps
+
+- Use 1+1D radiation model for initial conditions
+- Directly compare to isothermal/adiabatic model
+- Post-process with Monte Carlo radiation models (Mol3D, RadMC3D) to create
+  synthetic observations
+- Apply to real systems
+
 
 ### Future developments
 
 - FLD does not capture shadows inside the disk
-  - M1 closure (Voelkel et al., in prep.)
+  - Test use of M1 closure (Voelkel et al., in prep.)
 - Mesh refinement to improve resolution around planet
-- Dust & gas opacities
 - Accretion shock at planet (Marleau et al., 2017)
 - Ionization for hot regions
 
