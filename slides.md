@@ -139,25 +139,27 @@ refer to Flock et al. (2013) as alternative implementation
 - Optionally add a planet's gravitational potential
 
 
-<img src="images/simulation/slice-rho.png" width="100%" />
+<video width="100%" controls autoplay loop>
+  <source src="images/simulation/slice-density.ogg" type="video/ogg">
+</video>
 
 
-<img src="images/simulation/slice-irad.png" width="100%" />
+<img src="images/simulation/slice-temperature.png" width="100%" />
 
 
-<img src="images/simulation/slice-Tgas.png" width="100%" />
+<video width="100%" controls autoplay loop>
+  <source src="images/simulation/topdown-density.ogg" type="video/ogg">
+</video>
 
 
-<img src="images/simulation/no-planet-rho.png" width="100%" />
+<video width="100%" controls autoplay loop>
+  <source src="images/simulation/topdown-density-perturbation.ogg" type="video/ogg">
+</video>
 
 
-<img src="images/simulation/spiral-wave-rho.png" width="100%" />
-
-
-<img src="images/simulation/spiral-wave-drho.png" width="100%" />
-
-
-<img src="images/simulation/spiral-wave-drho-zoom.png" width="100%" />
+<video width="100%" controls autoplay loop>
+  <source src="images/simulation/topdown-temperature.ogg" type="video/ogg">
+</video>
 
 
 ### Next steps
