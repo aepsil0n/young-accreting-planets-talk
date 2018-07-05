@@ -1,6 +1,6 @@
 ## Characterization of Young Accreting Planets
 
-Tübingen Group Meeting – June 13, 2018
+IMPRS Seminar – July 5, 2018
 
 <img src="images/spp-1992-logo.png" width="200" align="left" />
 
