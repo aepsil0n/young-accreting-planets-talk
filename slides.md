@@ -8,7 +8,7 @@ IMPRS Seminar – July 5, 2018
 
 ---
 
-## Observing embedded planets
+## Observing young planets
 
 
 **LkCa 15**
@@ -49,8 +49,7 @@ Direct detection of accreting planets?
 
 ### Interpreting observations with models
 
-- **Dynamics of planet-disk system** (MPIA)
-- Observable radiation (Uni Kiel)
+<img src="images/collaboration-overview.png" width="100%" />
 
 
 ### Dynamical simulations
