@@ -1,6 +1,6 @@
 ## Characterization of Young Accreting Planets
 
-IMPRS Seminar – July 5, 2018
+SPP 1992 Young Researchers Retreat – Sep 12, 2018
 
 <img src="images/spp-1992-logo.png" width="200" align="left" />
 
