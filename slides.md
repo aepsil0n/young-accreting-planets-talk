@@ -1,6 +1,8 @@
 ## Characterization of Young Accreting Planets
 
-SPP 1992 Young Researchers Retreat – Sep 12, 2018
+Japanese-German Meeting on Exoplanets & Planet Formation
+
+September 27, 2018
 
 <img src="images/spp-1992-logo.png" width="200" align="left" />
 
@@ -23,6 +25,13 @@ Sallum et al. (2015)
 <img src="images/quanz-hd100546.png" width="600" />
 
 Quanz et al. (2015)
+
+
+**PDS 70**
+
+<img src="images/pds70b.jpg" width="600" />
+
+Keppler et al. (2018), Müller et al. (2018)
 
 
 ### More to come…
@@ -86,23 +95,24 @@ Feasibility of detecting gaps (caused by planets) with ALMA
 
 - Disk temperature is influenced by radiation
 - For an accurate treatment, we need to handle radiation
-- 3D radiation hydrodynamical numerical models using PLUTO
+- 3D radiation hydrodynamical numerical models using PLUTO (Mignone et al.,
+  2007)
 
 
 ### Radiative transfer
 
-<img src="images/radtrans-schematic-plain.svg" width="600" />
+<img src="images/radtrans-schematic-plain.svg" width="800" />
 
 Note:
 
 Approximate radiation model used within fluid simulations
 
 
-<img src="images/radtrans-schematic-diffusion.svg" width="600" />
+<img src="images/radtrans-schematic-diffusion.svg" width="800" />
 
-- Flux-limited diffusion
-- Levermore & Pomeraning (1981)
+- Flux-limited diffusion (Levermore & Pomeraning, 1981)
 - Implementation in PLUTO: Kuiper et al. (2010)
+- Compare: Flock et al. (2013)
 
 Note:
 
@@ -115,7 +125,7 @@ FLD is a strong simplification of radiative transfer
 leads to inaccuracies in atmosphere: opt. thin -> opt. thick
 
 
-<img src="images/radtrans-schematic.svg" width="600" />
+<img src="images/radtrans-schematic.svg" width="800" />
 
 Frequency-dependent ray-tracing (Kuiper et al., 2010 & 2013)
 
@@ -127,56 +137,33 @@ refer to Flock et al. (2013) as alternative implementation
 
 ---
 
-## Simulations
+## Qualitative results
 
 
 ### Current setup
 
 - Start with isothermal profile
-- Run axissymmetric 2D simulation
-- Run 3D simulation
-- Optionally add a planet's gravitational potential
-
-
-<video width="100%" controls autoplay loop>
-  <source src="images/simulation/slice-density.ogg" type="video/ogg">
-</video>
+- Let it settle in 2D axissymmetric simulation
+- Run full 3D simulation
+- Add a planet's gravitational potential
 
 
 <img src="images/simulation/slice-temperature.png" width="100%" />
 
 
 <video width="100%" controls autoplay loop>
-  <source src="images/simulation/topdown-density.ogg" type="video/ogg">
-</video>
-
-
-<video width="100%" controls autoplay loop>
   <source src="images/simulation/topdown-density-perturbation.ogg" type="video/ogg">
 </video>
 
-
-<video width="100%" controls autoplay loop>
-  <source src="images/simulation/topdown-temperature.ogg" type="video/ogg">
-</video>
+Relative density perturbation shows spiral waves
 
 
-### Next steps
+### Next
 
-- Use 1+1D radiation model for initial conditions
-- Directly compare to isothermal/adiabatic model
-- Post-process with Monte Carlo radiation models (Mol3D, RadMC3D) to create
-  synthetic observations
-- Apply to real systems
-
-
-### Future developments
-
+- 1:1 comparison to real systems (incl. post-processing)
 - FLD does not capture shadows inside the disk
   - Test use of M1 closure (Voelkel et al., in prep.)
 - Mesh refinement to improve resolution around planet
-- Accretion shock at planet (Marleau et al., 2017)
-- Ionization for hot regions
 
 ---
 
@@ -184,9 +171,6 @@ refer to Flock et al. (2013) as alternative implementation
 
 - Dynamical models of planet-disk interaction
 - Aim: treat radiation as accurately as possible
-- Relevant to interpret observations of circumplanetary disks
+- Interpret observations of circumplanetary disks
 
-
-### Thank you for your attention
-
-Contact: bopp@mpia.de
+**Contact:** bopp@mpia.de
